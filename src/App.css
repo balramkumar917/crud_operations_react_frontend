@@ -1,0 +1,178 @@
+/* Basic styling for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+}
+
+.navbar-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 400px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+  }
+}
+
+/* homepage */
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #434343;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+/* button */
+.btn1,.btn2,.btn3{
+  /* border: 2px solid white; */
+  border: none;
+  
+  font-size: medium;
+  cursor: pointer;
+  margin: 2px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.btn1{
+  background-color: rgb(45, 127, 235);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}
+.btn2{
+  color:rgb(0, 94, 255);
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn3{
+  background-color: red;
+}
+
+/* ADD USER */
+
+.input{
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  
+}
+form{
+  display: grid;
+  justify-content: center;
+  border: 2px solid white;
+  
+  align-items: center;
+  padding: 20px;
+  
+
+}
+.btn-cancel{
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* HEADER */
+
+.header{
+  font-size: 2rem;
+  text-align: center;
+  background-color: seagreen;
+ 
+ 
+}
+
+/* VIEW STUDENT */
+
+.container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: fit-content;
+  text-align: center;
+  
+}
+.card{
+  margin: auto;
+  text-align: left;
+  border: 1px solid white;
+  height: fit-content;
+  padding: auto;
+  padding-bottom: 2rem;
+  width: fit-content;
+  padding: 2rem;
+
+  
+  
+  
+}
+
+.btn-home{
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 10px;
+  width: fit-content;
+  background-color: red;
+  color: white;
+  
+  font-weight: bold;
+  position: relative;
+  
+
+}
